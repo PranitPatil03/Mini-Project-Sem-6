@@ -1,0 +1,67 @@
+Model: "sequential_6"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv1d_12 (Conv1D)          (None, 4, 128)            1664      
+                                                                 
+ max_pooling1d_12 (MaxPoolin  (None, 2, 128)           0         
+ g1D)                                                            
+                                                                 
+ conv1d_13 (Conv1D)          (None, 1, 64)             16448     
+                                                                 
+ max_pooling1d_13 (MaxPoolin  (None, 1, 64)            0         
+ g1D)                                                            
+                                                                 
+ bidirectional_12 (Bidirecti  (None, 1, 512)           659456    
+ onal)                                                           
+                                                                 
+ dropout_12 (Dropout)        (None, 1, 512)            0         
+                                                                 
+ bidirectional_13 (Bidirecti  (None, 1, 512)           1576960   
+ onal)                                                           
+                                                                 
+ dropout_13 (Dropout)        (None, 1, 512)            0         
+                                                                 
+ dense_12 (Dense)            (None, 1, 32)             16416     
+                                                                 
+ dense_13 (Dense)            (None, 1, 2)              66        
+                                                                 
+=================================================================
+Total params: 2,271,010
+Trainable params: 2,271,010
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_7"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv1d_14 (Conv1D)          (None, 4, 128)            1920      
+                                                                 
+ max_pooling1d_14 (MaxPoolin  (None, 2, 128)           0         
+ g1D)                                                            
+                                                                 
+ conv1d_15 (Conv1D)          (None, 1, 64)             16448     
+                                                                 
+ max_pooling1d_15 (MaxPoolin  (None, 1, 64)            0         
+ g1D)                                                            
+                                                                 
+ bidirectional_14 (Bidirecti  (None, 1, 512)           659456    
+ onal)                                                           
+                                                                 
+ dropout_14 (Dropout)        (None, 1, 512)            0         
+                                                                 
+ bidirectional_15 (Bidirecti  (None, 1, 512)           1576960   
+ onal)                                                           
+                                                                 
+ dropout_15 (Dropout)        (None, 1, 512)            0         
+                                                                 
+ dense_14 (Dense)            (None, 1, 32)             16416     
+                                                                 
+ dense_15 (Dense)            (None, 1, 2)              66        
+                                                                 
+=================================================================
+Total params: 2,271,266
+Trainable params: 2,271,266
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/50
